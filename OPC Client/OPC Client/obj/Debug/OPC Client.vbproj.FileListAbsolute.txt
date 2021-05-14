@@ -515,3 +515,12 @@ D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client
 D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client\OPC Client\obj\Debug\OPC_Client.Form2.resources
 D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client\OPC Client\obj\Debug\OPC_Client.Resources.resources
 D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.GenerateResource.Cache
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.vbprojAssemblyReference.cache
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.ResolveComReference.cache
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC_Client.Form2.resources
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC_Client.Resources.resources
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.GenerateResource.cache
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.CoreCompileInputs.cache
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.exe
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.xml
+D:\Project\TLOS\OPC_Client\OPC_Client_V2\OPC Client\OPC Client\obj\Debug\OPC Client.pdb
