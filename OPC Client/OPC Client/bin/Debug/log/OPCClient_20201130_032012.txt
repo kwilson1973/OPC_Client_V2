@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020/10/12 09:10:39 ATO.Train.151.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.117.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.116.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.115.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.114.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.113.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.112.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.111.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.76.Status.id 0
+2020/10/12 09:10:39 ATO.Train.75.Status.id 0
+2020/10/12 09:10:39 ATO.Train.74.Status.id 105
+2020/10/12 09:10:39 ATO.Train.73.Status.id 45
+2020/10/12 09:10:39 ATO.Train.72.Status.id 5
+2020/10/12 09:10:39 ATO.Train.71.Status.id 169
+2020/10/12 09:10:39 ATO.Train.103.Status.id 0
+2020/10/12 09:10:39 ATO.Train.102.Status.id 0
+2020/10/12 09:10:39 ATO.Train.101.Status.id 0
+2020/10/12 09:10:39 ATO.Train.100.Status.id 0
+2020/10/12 09:10:39 ATO.Train.99.Status.id 0
+2020/10/12 09:10:39 ATO.Train.98.Status.id 0
+2020/10/12 09:10:39 ATO.Train.97.Status.id 0
+2020/10/12 09:10:39 ATO.Train.96.Status.id 0
+2020/10/12 09:10:39 ATO.Train.95.Status.id 0
+2020/10/12 09:10:39 ATO.Station.BR5U.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.BR12D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Vehicle.132.Status.train_id 17
+2020/10/12 09:10:39 ATO.Station.BR4D.Status.station_dwell_time 48
+2020/10/12 09:10:39 ATO.Station.BR1D.Status.train_id 23
+2020/10/12 09:10:39 ATO.Vehicle.140.Status.train_id 45
+2020/10/12 09:10:39 ATO.Station.BR12D.Status.right_door_1_status 16
+2020/10/12 09:10:39 ATO.Train.111.Status.id 0
+2020/10/12 09:10:39 ATO.Train.110.Status.id 0
+2020/10/12 09:10:39 ATO.Train.109.Status.id 0
+2020/10/12 09:10:39 ATO.Train.108.Status.id 0
+2020/10/12 09:10:39 ATO.Train.107.Status.id 0
+2020/10/12 09:10:39 ATO.Train.106.Status.id 0
+2020/10/12 09:10:39 ATO.Train.105.Status.id 0
+2020/10/12 09:10:39 ATO.Train.104.Status.id 0
+2020/10/12 09:10:39 ATO.Train.160.Status.id 0
+2020/10/12 09:10:39 ATO.Train.130.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.129.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.128.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.127.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.126.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.125.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.154.Status.id 0
+2020/10/12 09:10:39 ATO.Station.BR10U.Status.train_id 139
+2020/10/12 09:10:39 ATO.Station.B2D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B3D.Status.train_id 109
+2020/10/12 09:10:39 ATO.Station.B4D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B5D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B6D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B7D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B8D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B9D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Vehicle.7.Status.id 199
+2020/10/12 09:10:39 ATO.Station.BR6D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Vehicle.36.Status.id 152
+2020/10/12 09:10:39 ATO.Station.B10D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.BR2U.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B11D.Status.train_id 0
+2020/10/12 09:10:39 ATO.Vehicle.82.Status.id 134
+2020/10/12 09:10:39 ATO.Vehicle.1.Status.id 115
+2020/10/12 09:10:39 ATO.Station.BR13U.Status.train_id 159
+2020/10/12 09:10:39 ATO.Vehicle.46.Status.id 196
+2020/10/12 09:10:39 ATO.Vehicle.35.Status.id 121
+2020/10/12 09:10:39 ATO.Station.BR4U.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.BR7U.Status.train_id 197
+2020/10/12 09:10:39 ATO.Station.B10U.Status.train_id 51
+2020/10/12 09:10:39 ATO.Station.BR1U.Status.train_id 129
+2020/10/12 09:10:39 ATO.Vehicle.32.Status.id 180
+2020/10/12 09:10:39 ATO.Vehicle.28.Status.id 130
+2020/10/12 09:10:39 ATO.Station.B4U.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.BR2D.Status.train_id 19
+2020/10/12 09:10:39 ATO.Station.B5U.Status.train_id 0
+2020/10/12 09:10:39 ATO.Station.B6U.Statu

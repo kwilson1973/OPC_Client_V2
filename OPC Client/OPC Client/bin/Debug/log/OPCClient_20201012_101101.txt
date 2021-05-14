@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+2020/03/31 12:47:03 ATO.Vehicle.128.Status.id 0
+2020/03/31 12:47:03 ATO.Vehicle.31.Status.train_id 40
+2020/03/31 12:47:03 ATO.Vehicle.30.Status.train_id 47
+2020/03/31 12:47:03 ATO.Vehicle.29.Status.train_id 47
+2020/03/31 12:47:03 ATO.Train.46.Status.location_segment 617
+2020/03/31 12:47:03 ATO.Vehicle.139.Status.train_id 0
+2020/03/31 12:47:03 ATO.Vehicle.28.Status.train_id 3
+2020/03/31 12:47:03 ATO.Vehicle.27.Status.train_id 3
+2020/03/31 12:47:03 ATO.Vehicle.26.Status.train_id 113
+2020/03/31 12:47:03 ATO.Station.B4D.Status.station_dwell_time 25
+2020/03/31 12:47:03 ATO.Station.BR5D.Status.train_id 0
+2020/03/31 12:47:03 ATO.Vehicle.153.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Vehicle.154.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Vehicle.155.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Station.B8D.Status.station_dwell_time 25
+2020/03/31 12:47:03 ATO.Vehicle.58.Status.train_id 193
+2020/03/31 12:47:03 ATO.Vehicle.57.Status.train_id 193
+2020/03/31 12:47:03 ATO.Vehicle.56.Status.train_id 27
+2020/03/31 12:47:03 ATO.Station.B9D.Status.station_dwell_time 25
+2020/03/31 12:47:03 ATO.Vehicle.99.Status.ccms_veh_slot 37
+2020/03/31 12:47:03 ATO.Vehicle.100.Status.ccms_veh_slot 12
+2020/03/31 12:47:03 ATO.Vehicle.101.Status.ccms_veh_slot 177
+2020/03/31 12:47:03 ATO.Vehicle.96.Status.ccms_veh_slot 184
+2020/03/31 12:47:03 ATO.Vehicle.97.Status.ccms_veh_slot 169
+2020/03/31 12:47:03 ATO.Vehicle.98.Status.ccms_veh_slot 162
+2020/03/31 12:47:03 ATO.Vehicle.126.Status.id 120
+2020/03/31 12:47:03 ATO.Station.BR2D.Status.station_dwell_time 30
+2020/03/31 12:47:03 ATO.Vehicle.150.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Vehicle.151.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Vehicle.152.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Vehicle.6.Status.train_id 127
+2020/03/31 12:47:03 ATO.Vehicle.5.Status.train_id 127
+2020/03/31 12:47:03 ATO.Vehicle.1.Status.train_id 109
+2020/03/31 12:47:03 ATO.Vehicle.4.Status.train_id 0
+2020/03/31 12:47:03 ATO.Vehicle.132.Status.id 154

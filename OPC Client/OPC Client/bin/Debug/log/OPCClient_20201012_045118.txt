@@ -1,0 +1,23 @@
+
+
+
+
+2020/03/31 12:47:03 ATO.Vehicle.115.Status.id 201
+2020/03/31 12:47:03 ATO.Vehicle.80.Status.id 124
+2020/03/31 12:47:03 ATO.Vehicle.89.Status.id 139
+2020/03/31 12:47:03 ATO.Vehicle.121.Status.id 111
+2020/03/31 12:47:03 ATO.Vehicle.44.Status.id 28
+2020/03/31 12:47:03 ATO.Vehicle.122.Status.id 192
+2020/03/31 12:47:03 ATO.Vehicle.128.Status.id 0
+2020/03/31 12:47:03 ATO.Vehicle.31.Status.train_id 40
+2020/03/31 12:47:03 ATO.Vehicle.30.Status.train_id 47
+2020/03/31 12:47:03 ATO.Vehicle.29.Status.train_id 47
+2020/03/31 12:47:03 ATO.Train.46.Status.location_segment 617
+2020/03/31 12:47:03 ATO.Vehicle.139.Status.train_id 0
+2020/03/31 12:47:03 ATO.Vehicle.28.Status.train_id 3
+2020/03/31 12:47:03 ATO.Vehicle.27.Status.train_id 3
+2020/03/31 12:47:03 ATO.Vehicle.26.Status.train_id 113
+2020/03/31 12:47:03 ATO.Station.B4D.Status.station_dwell_time 25
+2020/03/31 12:47:03 ATO.Station.BR5D.Status.train_id 0
+2020/03/31 12:47:03 ATO.Vehicle.153.Status.ccms_veh_slot 0
+2020/03/31 12:47:03 ATO.Vehicle.154.S

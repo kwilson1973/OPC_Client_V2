@@ -1,0 +1,20 @@
+
+20200106  初版完成，測試通能正常
+20200710  合併 OPC_Client與Train Status 2支程式，上線測試通能正常
+20200713  新增按鈕狀態防呆
+20200716  新增抓取train 建立軌道對應表，供tlos使用
+20200721  送出軌道佔據與車號，供tlos使用
+20200722  依照環狀線格式，由原本只輸出更新車號，改為一次所有車號都一併輸出
+20201012	1.新增除錯輸出LOG檔，2.改輸出3個TABLE,取消健男格式，3.OPCB 只輸出正線
+20201012A 修正輸出資料格式
+20201013 取消OPCA CARB輸出，與列車離站時AD狀態以""表示
+20201023 新增追蹤direction
+20201023A 新增追蹤current_shuttle_ending_station_id,current_shuttle_starting_station_id
+20201023B 刪除追蹤current_shuttle_ending_station_id,current_shuttle_starting_station_id
+20201029  新增追蹤assistance_on_route,grand_route,next_grand_route
+20201029A 刪除追蹤assistance_on_route,next_grand_route  保留grand_route
+20201102 OPCC改成有變動再輸出
+20201109 每分鐘輸出一次OPCC
+20201130 新增追蹤distance_traveled、location_offset
+20210412 新增追蹤speed
+20210510 刪除填入dt_Number時先判斷vid是否有改變

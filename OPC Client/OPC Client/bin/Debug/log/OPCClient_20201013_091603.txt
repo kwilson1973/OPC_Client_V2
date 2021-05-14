@@ -1,0 +1,23 @@
+
+
+
+
+2020/10/12 09:10:39 ATO.Train.137.Status.id 0
+2020/10/12 09:10:39 ATO.Train.136.Status.id 0
+2020/10/12 09:10:39 ATO.Train.9.Status.id 37
+2020/10/12 09:10:39 ATO.Train.8.Status.id 17
+2020/10/12 09:10:39 ATO.Train.7.Status.id 31
+2020/10/12 09:10:39 ATO.Train.6.Status.id 21
+2020/10/12 09:10:39 ATO.Train.5.Status.id 43
+2020/10/12 09:10:39 ATO.Train.4.Status.id 199
+2020/10/12 09:10:39 ATO.Train.157.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.156.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.155.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.154.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.153.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.152.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.151.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.117.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.116.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.115.Status.location_segment 0
+2020/10/12 09:10:39 ATO.Train.114.S
