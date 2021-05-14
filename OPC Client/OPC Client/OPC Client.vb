@@ -33,7 +33,7 @@ Public Class Form2
     Public Logfile As System.IO.StreamWriter                     '輸出Log檔
     Public sOutLogLine As String                                '放寫入Log檔字串
     Public sOutLogFileName As String                            '輸出Log檔名
-    Public sOutLogDIR As String                                 '輸出Log位置
+    Public sOutLogDIR As String                                  '輸出Log位置
     Public iRefreshOutLogCountDown As Integer = 0               'Log檔案輸出更新時間
     Public iRefreshOutLogInterval As Integer = 60               '60秒開關log一次
     Public sLogMsg As String
@@ -60,10 +60,9 @@ Public Class Form2
     Public ItemNameArray(10000, 2) As String            '存ini 讀入要監控的ItemName
     Public dt As New System.Data.DataTable              '車站 月台 車號 到離站資訊
     Public dt_Number As New System.Data.DataTable       '車號對應表    
-    'Public dt_Segment As New System.Data.DataTable      '
+    Public dt_Segment As New System.Data.DataTable      'Segment 與車號對應表
+    'Public dt_Segment_train As New System.Data.DataTable 'Segment 與車號對應表
     Public dt_TID As New System.Data.DataTable          'Segment 與車號對應表
-    Public dt_TrainInit As New System.Data.DataTable    '列車初始化 20210514
-
 
     '讀ini
     Public OPCItemCount, UpdateRate As Integer
@@ -163,9 +162,9 @@ Public Class Form2
         iRefreshOutCountDown = iRefreshOutCountDown - 1         '輸出文字檔間隔
         iRefreshOutLogCountDown = iRefreshOutLogCountDown - 1   'log 輸出間隔
         If Debug = "1" Then
-            Me.Text = "OPC Client 20210514_" & iRefreshOutCountDown & "  (除錯模式)"
+            Me.Text = "OPC Client 20210510_" & iRefreshOutCountDown & "  (除錯模式)"
         Else
-            Me.Text = "OPC Client 20210514_" & iRefreshOutCountDown
+            Me.Text = "OPC Client 20210510_" & iRefreshOutCountDown
         End If
 
         '開關輸出檔案
@@ -387,13 +386,12 @@ Public Class Form2
         Dim dtRowsCount As Integer = dt.Rows.Count - 1
         Dim dtNumberRowsCount As Integer = dt_Number.Rows.Count - 1
         Dim dtNumberRowsCount2 As Integer = dt_Number.Rows.Count - 1
-        'Dim dtSegmentRowCount As Integer = dt_Segment.Rows.Count - 1
+        Dim dtSegmentRowCount As Integer = dt_Segment.Rows.Count - 1
+        'Dim dtSegmentTrainRowCount As Integer = dt_Segment_train.Rows.Count - 1
         Dim dtTIDRowCount As Integer = dt_TID.Rows.Count - 1
-        Dim dtTrainInitCount As Integer = dt_TrainInit.Rows.Count   '20210514 ADD COUNT  initialization
         Dim sSegTemp, sSegREG, sSegNum, sSegNumber As String
         Dim iSegLen As Integer
         'Dim sSegOut As String
-        Dim sINITemp As String
         Try
 
             If Debug = "1" Then Logfile.WriteLine(sMsg) '20201012寫入log
@@ -530,6 +528,8 @@ Public Class Form2
                     End If
 
 
+
+
                     '20210412 add speed
                     If sTrainArray(4) = "id" Or sTrainArray(4) = "grand_route" Or sTrainArray(4) = "location_offset" Or sTrainArray(4) = "speed" Then
                         For s = 0 To dtTIDRowCount
@@ -548,18 +548,8 @@ Public Class Form2
                 End If
 
 
-                '20210514 add initialization
-                If sTrainArray(1) = "TrainInit" And sAllArray(3) <> "0" Then
-                    sINITemp = sAllArray(3)
-                    sINITemp = Trim(Convert.ToString(CInt(sINITemp), 2))            '轉2進制
 
-                    For s = 0 To dtTrainInitCount
-                        If dt_TrainInit(s)(0) = sTrainArray(2) Then
-                            dt_TrainInit(s)(1) = Trim(NowTime)
-                            If sTrainArray(4) = "train_init_status" Then dt_TrainInit(s)(2) = sINITemp '初始化狀態
-                        End If
-                    Next
-                End If
+
 
             End If
 
@@ -624,20 +614,9 @@ Public Class Form2
                     If dt_Number(i)(1) <> "" Then
                         sSentOot = "[OpcC];GID=" & dt_Number(i)(0) & ";TID=" & dt_Number(i)(1) & ";VID=" & dt_Number(i)(2) & ";Dist=" & dt_Number(i)(3) & ";RT=" & dt_Number(i)(4) & ";WT=" & Trim(NowTime)
                         file.WriteLine(sSentOot) '寫入輸出文字檔
-                        'bOpcCOut = False
+                        bOpcCOut = False
                     End If
                 Next
-
-                '20210514 add 
-                For i = 0 To 159
-                    If dt_TrainInit(i)(1) <> "" Then
-                        sSentOot = "[OpcD];ID=" & dt_TrainInit(i)(0) & ";Stat=" & dt_TrainInit(i)(2) & ";RT=" & dt_TrainInit(i)(1) & ";WT=" & Trim(NowTime)
-                        file.WriteLine(sSentOot) '寫入輸出文字檔
-                    End If
-                Next
-                bOpcCOut = False
-
-
             End If
 
 
@@ -709,23 +688,6 @@ Public Class Form2
         DataGridView3.DataSource = dt_TID
         DataGridView2.DataSource = dt_Number
         DataGridView3.Sort(DataGridView3.Columns(2), System.ComponentModel.ListSortDirection.Descending)
-    End Sub
-    '初始化列車初始化 20210514
-    Private Sub INI_dt_TrainInit()
-        dt_TrainInit.Columns.Add("ID", GetType(String))      '0  ID'
-        dt_TrainInit.Columns.Add("TIME", GetType(String))    '1 
-        dt_TrainInit.Columns.Add("Status", GetType(String))  '2  status'
-
-        Dim i As Integer = 1
-        Dim rowT As DataRow = dt_TrainInit.NewRow
-        For i = 1 To 160
-            rowT("ID") = CStr(i)
-            rowT("TIME") = ""
-            rowT("Status") = ""
-            dt_TrainInit.Rows.Add(rowT)
-            rowT = dt_TrainInit.NewRow()
-        Next
-
     End Sub
 
 

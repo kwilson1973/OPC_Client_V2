@@ -515,17 +515,3 @@ D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client
 D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client\OPC Client\obj\Debug\OPC_Client.Form2.resources
 D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client\OPC Client\obj\Debug\OPC_Client.Resources.resources
 D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.GenerateResource.Cache
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\Interop.OPCAutomation.dll
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.ResolveComReference.cache
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC Client.exe
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC Client.xml
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC Client.pdb
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\bin\Debug\OPC Client.exe
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\bin\Debug\OPC Client.pdb
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\bin\Debug\OPC Client.xml
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\bin\Debug\SYS.dll
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\bin\Debug\Interop.OPCAutomation.dll
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\ResolveAssemblyReference.cache
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC_Client.Form2.resources
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC_Client.Resources.resources
-D:\kai\work(作業中)\OPC_Client\程式碼\OPC_Client V2_08_20210510 - 複製\OPC Client\OPC Client\obj\Debug\OPC Client.vbproj.GenerateResource.Cache
